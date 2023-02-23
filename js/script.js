@@ -10,7 +10,6 @@ var f_urlF = (fullurl[1]);
 var f_url = unescape(f_urlF.replace('+'," "));
 var f_meta = m;
 document.title= f_meta;
-console.log(f_url);
 }
 else{
     document.body.innerHTML="<center><div id='nocontent'><img src='img/pdf-svg.svg'></div></center>"
