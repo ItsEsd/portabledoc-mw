@@ -6,7 +6,8 @@ var r = url.searchParams.get("r");
 var tostr = url.searchParams.toString();
 var fullurl = tostr.split('%22');
 if(r =="true"){
-var f_url = unescape(fullurl[1]);
+var f_urlF = (fullurl[1]);
+var f_url = unescape(f_urlF.replace('+'," "));
 var f_meta = m;
 document.title= f_meta;
 console.log(f_url);
