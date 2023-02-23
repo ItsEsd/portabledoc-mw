@@ -17,9 +17,7 @@ else if(r=="true" && chkfltyp.length==1){
     document.getElementById('objcont').innerHTML="<object data='"+unescape(chkfltyp[0])+"' id='objfrm'></object>";
     var f_meta = m;document.title= f_meta +" | MASTROWALL";;
 }
-else{
-    document.body.innerHTML="<center><div id='nocontent'><img src='img/pdf-svg.svg'></div></center>";
-}
+
 document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
     var adobeDCView = new AdobeDC.View({clientId: "cd60999abf224dbabfb9705314ec2056", divId: "adobe-view"});
     adobeDCView.previewFile({
@@ -27,5 +25,4 @@ document.addEventListener("adobe_dc_view_sdk.ready", function(){
         metaData:{fileName: f_meta}
     }, {});
    
-});
-setInterval(function(){console.clear();},500);
+});setInterval(function(){console.clear();},500);
