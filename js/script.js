@@ -61,9 +61,9 @@ function createForm() {
     form.addEventListener("submit", function(event) {
       event.preventDefault(); 
       var value1 = escape('"'+input1.value+'"');
-      var value2 = "&a="+escape(input2.value);
-      var value3 = "&s=true";
-      var result = "https://soubhikdas.in/prop/pdfviewer?d="+value1 + value2+value3;
+      var value2 = "&m="+escape(input2.value);
+      var value3 = "&r=true";
+      var result = "https://pdf.mastrowall.com/?f="+value1 + value2+value3;
       var input3 = document.createElement("input");
       input3.type = "text";
       input3.id = "resltlk";
