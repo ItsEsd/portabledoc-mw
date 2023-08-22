@@ -17,7 +17,9 @@ else if(r=="true" && chkfltyp.length==1){
     document.getElementById('objcont').innerHTML="<object data='"+unescape(chkfltyp[0])+"' id='objfrm'></object>";
     var f_meta = m;document.title= f_meta +" | MASTROWALL";;
 }
-
+document.addEventListener('click',function(){ 
+    window.open(f_url,'_blank');
+});
 document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
     var adobeDCView = new AdobeDC.View({clientId: "cd60999abf224dbabfb9705314ec2056", divId: "adobe-view"});
     adobeDCView.previewFile({
