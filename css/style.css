@@ -1,73 +1,74 @@
-#adobe-view{
-    top:0px;
-    left:0px;
-    position: fixed;
-    width:100%;
-    height:100%;
-    z-index:1000;
+#adobe-view {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
 }
-#nocontent{
-    top:0px;
-    left:0px;
-    position: fixed;
-    width:100%;
-    height:100%;
-    background-color: #f68c8c;
-    z-index:100;
+#nocontent {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #f68c8c;
+  z-index: 100;
 }
-#nocontent img{
-    margin:15% auto;
-    width:30%;
-    max-width:200px;
-    pointer-events: none;
-}
-
-#objfrm{
-    top:0px;
-    left:0px;
-    position: fixed;
-    width:100%;
-    height:100%;
-}
-#objcont{
-    display: none;
-    top:0px;
-    left:0px;
-    position: fixed;
-    width:100%;
-    height:100%;
-    z-index:1000;
-}
-#crtpdflk{
-    bottom:0px;
-    right:0px;
-    position: fixed;
-    z-index: 1000;
+#nocontent img {
+  margin: 15% auto;
+  margin-top: 30vh;
+  width: 30%;
+  max-width: 200px;
+  pointer-events: none;
 }
 
-#formContainer{
-    bottom:0px;
-    right:0px;
-    position: fixed;
-    z-index: 1000;
-    width:100%;
-    max-width: 450px;
-    z-index: 2000;
-    background-color: white;;
+#objfrm {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
-#formContainer input{
-    padding:10px;
-    margin:5px;
-    width:42%;
-    display: inline-block;
+#objcont {
+  display: none;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
 }
-#formContainer button{
-    padding:10px;
-    margin:5px;
-    width:47%;
+#crtpdflk {
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  z-index: 1000;
 }
-#resltlk{
-    background-color: #fe3535;
-    color:white;
-    border:2px solid rgb(0, 0, 0);
+
+#formContainer {
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  max-width: 450px;
+  z-index: 2000;
+  background-color: white;
+}
+#formContainer input {
+  padding: 10px;
+  margin: 5px;
+  width: 42%;
+  display: inline-block;
+}
+#formContainer button {
+  padding: 10px;
+  margin: 5px;
+  width: 47%;
+}
+#resltlk {
+  background-color: #fe3535;
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
 }
