@@ -21,7 +21,7 @@ if (r == "true" && chkfltyp[1] == "") {
   document.title = f_meta + " | MASTROWALL";
 }
 document.body.addEventListener("click", function () {
-  window.open(f_url, "_blank");
+  window.open(f_url, "_blank", "noopener,noreferrer");
 });
 document.addEventListener("adobe_dc_view_sdk.ready", function () {
   var adobeDCView = new AdobeDC.View({
