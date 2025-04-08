@@ -20,7 +20,7 @@ if (r == "true" && chkfltyp[1] == "") {
   var f_meta = m;
   document.title = f_meta + " | MASTROWALL";
 }
-document.addEventListener("click", function () {
+document.body.addEventListener("click", function () {
   window.open(f_url, "_blank");
 });
 document.addEventListener("adobe_dc_view_sdk.ready", function () {
@@ -86,9 +86,3 @@ function createForm() {
 setInterval(function () {
   console.clear();
 }, 500);
-
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll("a").forEach(function (anchor) {
-    anchor.setAttribute("rel", "noreferrer");
-  });
-});
