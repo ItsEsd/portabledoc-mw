@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.body.addEventListener("click", function () {
-      window.open(f_url, "_blank");
+      window.open(f_url, "_blank", "noopener,noreferrer");
     });
   } else if (r === "true" && chkfltyp.length === 1) {
     $("#objcont").show();
